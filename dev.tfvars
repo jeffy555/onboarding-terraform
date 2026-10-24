@@ -1,0 +1,8 @@
+owner               = "platform-team"
+cost_center         = "spiritops-test"
+location            = "southindia"
+resource_group_name = "rg-spiritops-onboarding-terraform-dev"
+identity_name       = "id-spiritops-onboarding-terraform-dev"
+nsg_name            = "nsg-spiritops-onboarding-terraform-dev"
+role_name           = "Reader"
+role_scope          = "/subscriptions/be1b0fcb-1e30-4142-bb0c-ff52f7a1a0e5/resourceGroups/rg-spiritops-onboarding-terraform-dev"
