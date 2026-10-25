@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1104 464" role="img" aria-labelledby="title description" data-build-id="01M5SW2ZCPVHDKYYWBN0HBE5HC">
+<title id="title">SpiritOps architecture</title>
+<desc id="description">Directional resource dependencies. Each node includes its change label and source link.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8cabb9"/></marker></defs>
+<rect width="1104" height="464" fill="#0b141b"/>
+<g font-family="sans-serif" fill="#e5f0f6"><text x="24" y="30" font-size="19">SpiritOps</text>
+<text x="24" y="53" font-size="12">Build 01M5SW2ZCPVHDKYYWBN0HBE5HC · Source 6231480b · Parent 01M5PHD9KNEQ4QFMQ8AM3T4NZQ</text>
+<text x="24" y="80" font-size="12" fill="#8cabb9">= Unchanged</text>
+<text x="156" y="80" font-size="12" fill="#45d99b">+ Create</text>
+<text x="288" y="80" font-size="12" fill="#f4c265">~ Modify</text>
+<text x="420" y="80" font-size="12" fill="#ff747e">− Destroy</text>
+<text x="552" y="80" font-size="12" fill="#ff747e">↻ Replace</text>
+<text x="684" y="80" font-size="12" fill="#ff9a4c">! Drift</text>
+<polyline points="321.82,302 370,320 412,320" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="321.82,202 370,184 412,184" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="692,184 734,184 776,184" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<g id="n1ce1c71997be1bb836aceffe46a86e52da0b9bc8c249385e20e6f1914c11894d" data-address="azurerm_network_security_group.onboarding" data-build-id="01M5SW2ZCPVHDKYYWBN0HBE5HC">
+<a href="https://github.com/jeffy555/onboarding-terraform/blob/6231480b0bd73cb14e9633fdcf24b7702832b7e2/main.tf" aria-label="Open azurerm_network_security_group.onboarding source">
+<title>azurerm_network_security_group.onboarding — Drift</title><rect x="412" y="270" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
+<text x="424" y="295" font-size="14">nsg-spiritops-onboarding-terra…</text>
+<text x="424" y="318" font-size="11">azurerm_network_security_group</text>
+<text x="424" y="347" font-size="12" fill="#ff9a4c">! Drift</text>
+</a>
+</g>
+<g id="nf0a48743a15c7ab115720df1e39cfe11cb0cc6d8faa4626819e209ce3857ce08" data-address="azurerm_resource_group.onboarding" data-build-id="01M5SW2ZCPVHDKYYWBN0HBE5HC">
+<a href="https://github.com/jeffy555/onboarding-terraform/blob/6231480b0bd73cb14e9633fdcf24b7702832b7e2/main.tf" aria-label="Open azurerm_resource_group.onboarding source">
+<title>azurerm_resource_group.onboarding — Unchanged</title><rect x="48" y="202" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="60" y="227" font-size="14">rg-spiritops-onboarding-terraf…</text>
+<text x="60" y="250" font-size="11">azurerm_resource_group</text>
+<text x="60" y="279" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
+</g>
+<g id="ne14598c4de7fa0ad1c0ad32d8dd8d709266cf4a0dd8d58e66a1e222c426ef458" data-address="azurerm_role_assignment.project_reader" data-build-id="01M5SW2ZCPVHDKYYWBN0HBE5HC">
+<a href="https://github.com/jeffy555/onboarding-terraform/blob/6231480b0bd73cb14e9633fdcf24b7702832b7e2/main.tf" aria-label="Open azurerm_role_assignment.project_reader source">
+<title>azurerm_role_assignment.project_reader — Drift</title><rect x="776" y="134" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
+<text x="788" y="159" font-size="14">azurerm_role_assignment.projec…</text>
+<text x="788" y="182" font-size="11">azurerm_role_assignment</text>
+<text x="788" y="211" font-size="12" fill="#ff9a4c">! Drift</text>
+</a>
+</g>
+<g id="nce40c88bd52f319342a5e35386608b7a38e44055a824c2dc7befcc2cf09f8184" data-address="azurerm_user_assigned_identity.onboarding" data-build-id="01M5SW2ZCPVHDKYYWBN0HBE5HC">
+<a href="https://github.com/jeffy555/onboarding-terraform/blob/6231480b0bd73cb14e9633fdcf24b7702832b7e2/main.tf" aria-label="Open azurerm_user_assigned_identity.onboarding source">
+<title>azurerm_user_assigned_identity.onboarding — Drift</title><rect x="412" y="134" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
+<text x="424" y="159" font-size="14">id-spiritops-onboarding-terraf…</text>
+<text x="424" y="182" font-size="11">azurerm_user_assigned_identity</text>
+<text x="424" y="211" font-size="12" fill="#ff9a4c">! Drift</text>
+</a>
+</g>
+</g></svg>

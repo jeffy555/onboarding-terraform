@@ -1,0 +1,70 @@
+{
+  "context": {
+    "buildId": "01M5SW2ZCPVHDKYYWBN0HBE5HC",
+    "commitSha": "6231480b0bd73cb14e9633fdcf24b7702832b7e2",
+    "parentBuildId": "01M5PHD9KNEQ4QFMQ8AM3T4NZQ",
+    "repo": "jeffy555/onboarding-terraform",
+    "workspace": "SpiritOps"
+  },
+  "edges": [
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.onboarding",
+      "target": "azurerm_network_security_group.onboarding"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.onboarding",
+      "target": "azurerm_user_assigned_identity.onboarding"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_user_assigned_identity.onboarding",
+      "target": "azurerm_role_assignment.project_reader"
+    }
+  ],
+  "generator": "spiritops-dagre-v1",
+  "nodes": [
+    {
+      "address": "azurerm_network_security_group.onboarding",
+      "kind": "azurerm_network_security_group",
+      "layer": "security",
+      "name": "nsg-spiritops-onboarding-terraform-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "drift"
+    },
+    {
+      "address": "azurerm_resource_group.onboarding",
+      "kind": "azurerm_resource_group",
+      "layer": "compute",
+      "name": "rg-spiritops-onboarding-terraform-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_role_assignment.project_reader",
+      "kind": "azurerm_role_assignment",
+      "layer": "security",
+      "name": "azurerm_role_assignment.project_reader",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "drift"
+    },
+    {
+      "address": "azurerm_user_assigned_identity.onboarding",
+      "kind": "azurerm_user_assigned_identity",
+      "layer": "security",
+      "name": "id-spiritops-onboarding-terraform-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "drift"
+    }
+  ],
+  "version": 1
+}

@@ -24,10 +24,3 @@ resource "azurerm_role_assignment" "project_reader" {
   principal_id         = azurerm_user_assigned_identity.onboarding.principal_id
   principal_type       = "ServicePrincipal"
 }
-
-
-# Import the administrator-created project resource group.
-import {
-  to = azurerm_resource_group.onboarding
-  id = "/subscriptions/be1b0fcb-1e30-4142-bb0c-ff52f7a1a0e5/resourceGroups/rg-spiritops-onboarding-terraform-dev"
-}

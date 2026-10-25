@@ -1,0 +1,12 @@
+flowchart LR
+  n1ce1c71997be1bb836aceffe46a86e52da0b9bc8c249385e20e6f1914c11894d["nsg-spiritops-onboarding-terraform-dev — #33; Drift"]
+  style n1ce1c71997be1bb836aceffe46a86e52da0b9bc8c249385e20e6f1914c11894d fill:#12212b,color:#e5f0f6,stroke:#ff9a4c,stroke-width:2px
+  nf0a48743a15c7ab115720df1e39cfe11cb0cc6d8faa4626819e209ce3857ce08["rg-spiritops-onboarding-terraform-dev — #61; Unchanged"]
+  style nf0a48743a15c7ab115720df1e39cfe11cb0cc6d8faa4626819e209ce3857ce08 fill:#12212b,color:#e5f0f6,stroke:#8cabb9,stroke-width:2px
+  ne14598c4de7fa0ad1c0ad32d8dd8d709266cf4a0dd8d58e66a1e222c426ef458["azurerm_role_assignment.project_reader — #33; Drift"]
+  style ne14598c4de7fa0ad1c0ad32d8dd8d709266cf4a0dd8d58e66a1e222c426ef458 fill:#12212b,color:#e5f0f6,stroke:#ff9a4c,stroke-width:2px
+  nce40c88bd52f319342a5e35386608b7a38e44055a824c2dc7befcc2cf09f8184["id-spiritops-onboarding-terraform-dev — #33; Drift"]
+  style nce40c88bd52f319342a5e35386608b7a38e44055a824c2dc7befcc2cf09f8184 fill:#12212b,color:#e5f0f6,stroke:#ff9a4c,stroke-width:2px
+  nf0a48743a15c7ab115720df1e39cfe11cb0cc6d8faa4626819e209ce3857ce08 -->|"depends on"| n1ce1c71997be1bb836aceffe46a86e52da0b9bc8c249385e20e6f1914c11894d
+  nf0a48743a15c7ab115720df1e39cfe11cb0cc6d8faa4626819e209ce3857ce08 -->|"depends on"| nce40c88bd52f319342a5e35386608b7a38e44055a824c2dc7befcc2cf09f8184
+  nce40c88bd52f319342a5e35386608b7a38e44055a824c2dc7befcc2cf09f8184 -->|"depends on"| ne14598c4de7fa0ad1c0ad32d8dd8d709266cf4a0dd8d58e66a1e222c426ef458

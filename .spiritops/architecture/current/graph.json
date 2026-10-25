@@ -1,8 +1,8 @@
 {
   "context": {
-    "buildId": "01M5PHD9KNEQ4QFMQ8AM3T4NZQ",
-    "commitSha": "",
-    "parentBuildId": null,
+    "buildId": "01M5SW2ZCPVHDKYYWBN0HBE5HC",
+    "commitSha": "6231480b0bd73cb14e9633fdcf24b7702832b7e2",
+    "parentBuildId": "01M5PHD9KNEQ4QFMQ8AM3T4NZQ",
     "repo": "jeffy555/onboarding-terraform",
     "workspace": "SpiritOps"
   },
@@ -33,7 +33,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "create"
+      "state": "drift"
     },
     {
       "address": "azurerm_resource_group.onboarding",
@@ -43,7 +43,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "update"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_role_assignment.project_reader",
@@ -53,7 +53,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "create"
+      "state": "drift"
     },
     {
       "address": "azurerm_user_assigned_identity.onboarding",
@@ -63,7 +63,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "create"
+      "state": "drift"
     }
   ],
   "version": 1
